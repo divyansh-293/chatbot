@@ -6,7 +6,7 @@ from Divyansh2 import Tokenize,bag_of_words
 import pyttsx3
 import speech_recognition as sr
 
-with open("intents.json","w") as f:
+with open("intents.json","r") as f:
     x = json.load(f)
     
 FILE = "data.pth"
