@@ -68,7 +68,7 @@ while True:
     
     else:  
         speak("Sorry don't know about this")
-        f.write(sentence)
+       
     
     
     
